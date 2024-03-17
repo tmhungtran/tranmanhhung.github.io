@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    color: #222;
+}
+#header {
+    width: 100%;
+    padding:10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    text-transform: uppercase;
+    background-color: white;  
+    
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.menu ul{
+    background-color: #75b6c7;
+    list-style-type: none;
+    float: none;
+    padding-bottom: 5px;
+    margin-top: -20px;
+}
+.menu li{
+    color: blueviolet;
+    display: inline-block;
+    width: 150px ;
+    height: 40px;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.menu img{
+    margin-top:60px;
+    width: 65px;
+    height: auto;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #222;
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.menu ul li a:hover{
+    background-color: #f1f1f1;
+    color: #222;
+    padding: 3px;
+}
+.menu img {
+    width: 100px;
+    height: auto;
+}
+main{
+    margin-top: 140px;
+    margin-right: 100px;
+    margin-left: 50pxc;
+}
+main .title  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+section{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.hang1 article{
+    width: 200px;
+    height: 400px;
+    background-color: gray;
+    border: 5px  solid black;
+    text-align: center;
+    margin-left: 75px;
+}
+.hang1 article img{
+    width: 200px;
+    height: 300px;
+}
+.hang2 article{
+    width: 200px;
+    height: 400px;
+    background-color: gray;
+    border: 5px  solid black;
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 40px;
+}
+.hang2 article img{
+    width: 200px;
+    height: 300px;
+}
+footer{
+    background-color: aqua;
+    font-size: 15px;
+}
+footer a img {
+    width: 50px;
+    height: auto;
+}
